@@ -20,6 +20,10 @@ Applied Apriori Algorithm & K-means Clustering:
 
 ![Method2](https://github.com/sjrpokemon/LHL-final-project/assets/128329266/13935ff3-e5f7-4a06-aad5-4027196dfaf2)
 
+Item-based Collaborative Filtering:
+  - Created a sparse utility matrix using cosine similarity for movie recommendations.
+
+
 #### - Exploratory Data Analysis:
 
 

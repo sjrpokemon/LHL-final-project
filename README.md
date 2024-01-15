@@ -7,5 +7,6 @@
 ## Inspiration
 
 ## Process And Techniques
-#### - Data: #######asdf
+#### - Data : 
+####        
 #### - Exploratory Data Analysis:

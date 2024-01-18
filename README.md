@@ -6,10 +6,11 @@
 
 ## Method:
 ### Dataset
-##### The dataset used in this proejct is Kaggle's "TMDB 5000 Movie Dataset", containing around 4800 movies, including details such as cast, crew, keywords, and user ratings.
-##### For the project, two files were primarily used: 'tmdb_5000_credits.csv' for cast and crew and tmdb_5000_movies.csv' for user ratings and overviews.
+The dataset employed in this project is Kaggle's "TMDB 5000 Movie Dataset," comprising approximately 4800 movies with details such as cast, crew, keywords, and user ratings. Two primary files, 'tmdb_5000_credits.csv' for cast and crew and 'tmdb_5000_movies.csv' for user ratings and overviews, were utilized.
 
 ### Natural Language Processing (NLP)
+
+![Method2](https://github.com/sjrpokemon/LHL-final-project/assets/128329266/2ffa827c-7554-4791-8476-4848f67faf11)
 
 1. Keyword Extraction: Extracting meaningful keywords from movie overviews, tags, cast, and crew.
 
@@ -18,9 +19,12 @@
 3. CountVectorizer: Utilizing the CountVectorizer to convert the variable-length word sequences into a fixed-length feature vector for analysis.
 
 ## Result
-##### The processed data, containing the meaningful keywords extracted through natural language processing techniques, was integrated into a structured dataframe. To enhance user interaction, the resulting dataframe was serialized into a pickle file and seamlessly integrated into a Streamlit web application.
+The processed data, enriched with meaningful keywords from natural language processing techniques, was structured into a dataframe. For enhanced user interaction, the resulting dataframe was serialized into a pickle file and seamlessly integrated into a sophisticated Streamlit web application.
+
+This intuitive application empowers users to input a single preferred movie, leveraging advanced algorithms to deliver a curated list of recommendations, aligning with their unique tastes and preferences.
 
 ## Future Development
+
 ![Movie-flowchart](https://github.com/sjrpokemon/LHL-final-project/assets/128329266/0c6c662d-0a95-42e9-8a13-000e8ea72050)
 
 
@@ -29,6 +33,11 @@
 Apply Apriori Algorithm & K-means Clustering:
   - Utilized utility matrix with ratings converted to binary.
   -  Applied Apriori for frequent itemsets and K-means for clustering.
+
+The data processing phase for implementing machine learning techniques, specifically Apriori and K-means clustering, has been successfully completed. The output of the Apriori algorithm serves as a crucial input for the subsequent application of K-means clustering. This multi-layered approach aims to refine and enhance the recommendation engine, providing users with even more accurate and personalized movie suggestions. The seamless integration of these advanced techniques sets the foundation for continuous improvement and future feature expansion within the recommendation system.
+
+## Challenges
+While progressing with the integration of the recommendation system into the Streamlit app, a few challenges have been encountered. The complexities lie in seamlessly connecting the processed data with the app's interface, ensuring a user-friendly and efficient experience. Debugging and refining this integration process may require careful attention to ensure optimal functionality and a smooth recommendation flow within the app.
 
 ##Project Structure
 ```

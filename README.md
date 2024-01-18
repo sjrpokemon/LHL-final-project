@@ -5,10 +5,10 @@ This project introduces a streamlined movie recommendation system designed for u
 I have synergized CountVectorizer and NLTK for personalized recommendations. By combining CountVectorizer and NLTK, the recommendation algorithm in my app gains a deeper understanding of user preferences from textual inputs.
 
 ## Method:
-## Dataset
+Dataset
 The dataset employed in this project is Kaggle's "TMDB 5000 Movie Dataset," comprising approximately 4800 movies with details such as cast, crew, keywords, and user ratings. Two primary files, 'tmdb_5000_credits.csv' for cast and crew and 'tmdb_5000_movies.csv' for user ratings and overviews, were utilized.
 
-### Natural Language Processing (NLP)
+## Natural Language Processing (NLP)
 
 ![Method2](https://github.com/sjrpokemon/LHL-final-project/assets/128329266/2ffa827c-7554-4791-8476-4848f67faf11)
 
@@ -42,7 +42,7 @@ The data processing phase for implementing machine learning techniques, specific
 ## Challenges
 While progressing with the integration of the recommendation system into the Streamlit app, a few challenges have been encountered. The complexities lie in seamlessly connecting the processed data with the app's interface, ensuring a user-friendly and efficient experience. Debugging and refining this integration process may require careful attention to ensure optimal functionality and a smooth recommendation flow within the app.
 
-##Project Structure
+## Project Structure
 ```
 ├── app                       <- Folder For All The Streamlit App Code  
 │   ├── app.py                            <- my streamlit app 

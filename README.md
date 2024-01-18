@@ -6,8 +6,8 @@ I have synergized CountVectorizer and NLTK for personalized recommendations. By 
 
 ## Method:
 ### Dataset
-(download dataset: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data )
 The dataset employed in this project is Kaggle's "TMDB 5000 Movie Dataset," comprising approximately 4800 movies with details such as cast, crew, keywords, and user ratings. Two primary files, 'tmdb_5000_credits.csv' for cast and crew and 'tmdb_5000_movies.csv' for user ratings and overviews, were utilized.
+### Download dataset: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data
 
 ## Natural Language Processing (NLP)
 
@@ -56,7 +56,7 @@ While progressing with the integration of the recommendation system into the Str
 │   ├── Method2.png                      <-  Item-based Collaborative Filtering
 │   ├── Movie-flowchart.png              <-  Flowchart of the project
 │   ├── streamlit.png                    <-  streamlit app
-├── pickle                    <- pickle data
+├── pickle(file too big to upload) <- pickle data
 │   ├── movies_list.py                   <- list of movies
 │   ├── similarity.pkl                   <- cosine_similarity applied
 │   ├── overview.pkl                     <- data of overview

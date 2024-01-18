@@ -2,14 +2,15 @@
 ## Movie Recommendation Engine
 ## Abstract
 ##### This project introduces a streamlined movie recommendation system designed for users to input a single preferred movie and receive tailored recommendations. 
-#####I have Synergized CountVectorizer and NLTK for Personalized Recommendations. By combining CountVectorizer and NLTK, the recommendation algorithm in my app gains a deeper understanding of user preferences from textual inputs.
+##### I have Synergized CountVectorizer and NLTK for Personalized Recommendations. By combining CountVectorizer and NLTK, the recommendation algorithm in my app gains a deeper understanding of user preferences from textual inputs.
+
 ## Method:
 ### Dataset
 ##### The dataset used in this proejct is Kaggle's "TMDB 5000 Movie Dataset", containing around 4800 movies, including details such as cast, crew, keywords, and user ratings.
 ##### For the project, two files were primarily used: 'tmdb_5000_credits.csv' for cast and crew and tmdb_5000_movies.csv' for user ratings and overviews.
 
 ### Natural Language Processing (NLP)
-##### 
+
 1. Keyword Extraction: Extracting meaningful keywords from movie overviews, tags, cast, and crew.
 
 2. Word Tokenization with NLTK: Breaking down extracted keywords into individual variables using the nltk library.
@@ -30,6 +31,7 @@ Apply Apriori Algorithm & K-means Clustering:
   -  Applied Apriori for frequent itemsets and K-means for clustering.
 
 ##Project Structure
+```
 ├── app                       <- Folder For All The Streamlit App Code  
 │   ├── app.py                            <- my streamlit app 
 │   ├── .env                              <- api_key
@@ -52,8 +54,9 @@ Apply Apriori Algorithm & K-means Clustering:
 │   ├── Collaborative-filtering.ipynb    <- K-means clustering for future use
 │   ├── future_work.ipynb                <- Apriori and K-means clustering for future use      
 └── README.md                 <- Project Documentation
-
+```
 ## The Streamlit App
 #### To run the Streamlit App, run the following command: 
-##### streamlit run app/app.py
-
+```
+streamlit run app/app.py
+```

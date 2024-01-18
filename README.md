@@ -19,12 +19,11 @@ The dataset employed in this project is Kaggle's "TMDB 5000 Movie Dataset," comp
 3. CountVectorizer: Utilizing the CountVectorizer to convert the variable-length word sequences into a fixed-length feature vector for analysis.
 
 ## Result
-
-![streamlit](https://github.com/sjrpokemon/LHL-final-project/assets/128329266/75b20b87-7347-467f-8da0-bf643c15e9d1)
-
 The processed data, enriched with meaningful keywords from natural language processing techniques, was structured into a dataframe. For enhanced user interaction, the resulting dataframe was serialized into a pickle file and seamlessly integrated into a sophisticated Streamlit web application.
 
 Streamlit App Integration: The Streamlit app has been successfully developed and deployed, allowing users to input a single preferred movie and receive five personalized recommendations. This marks a significant achievement, showcasing the operationalization of the recommendation engine in an interactive and user-friendly manner.
+
+![streamlit](https://github.com/sjrpokemon/LHL-final-project/assets/128329266/75b20b87-7347-467f-8da0-bf643c15e9d1)
 
 ## Future Development
 
@@ -55,6 +54,7 @@ While progressing with the integration of the recommendation system into the Str
 │   ├── Method1.png                      <-  Apriori and K-means Clustering   
 │   ├── Method2.png                      <-  Item-based Collaborative Filtering
 │   ├── Movie-flowchart.png              <-  Flowchart of the project
+│   ├── streamlit.png                    <-  streamlit app
 ├── pickle                    <- pickle data
 │   ├── movies_list.py                   <- list of movies
 │   ├── similarity.pkl                   <- cosine_similarity applied

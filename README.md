@@ -5,7 +5,7 @@ This project introduces a streamlined movie recommendation system designed for u
 I have synergized CountVectorizer and NLTK for personalized recommendations. By combining CountVectorizer and NLTK, the recommendation algorithm in my app gains a deeper understanding of user preferences from textual inputs.
 
 ## Method:
-Dataset
+### Dataset
 The dataset employed in this project is Kaggle's "TMDB 5000 Movie Dataset," comprising approximately 4800 movies with details such as cast, crew, keywords, and user ratings. Two primary files, 'tmdb_5000_credits.csv' for cast and crew and 'tmdb_5000_movies.csv' for user ratings and overviews, were utilized.
 
 ## Natural Language Processing (NLP)

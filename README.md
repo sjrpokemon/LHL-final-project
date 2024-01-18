@@ -1,11 +1,11 @@
 # Capstone Project LHL
 ## Movie Recommendation Engine
 ## Abstract
-##### This project introduces a streamlined movie recommendation system designed for users to input a single preferred movie and receive tailored recommendations. 
-##### I have Synergized CountVectorizer and NLTK for Personalized Recommendations. By combining CountVectorizer and NLTK, the recommendation algorithm in my app gains a deeper understanding of user preferences from textual inputs.
+This project introduces a streamlined movie recommendation system designed for users to input a single preferred movie and receive tailored recommendations. 
+I have synergized CountVectorizer and NLTK for personalized recommendations. By combining CountVectorizer and NLTK, the recommendation algorithm in my app gains a deeper understanding of user preferences from textual inputs.
 
 ## Method:
-### Dataset
+## Dataset
 The dataset employed in this project is Kaggle's "TMDB 5000 Movie Dataset," comprising approximately 4800 movies with details such as cast, crew, keywords, and user ratings. Two primary files, 'tmdb_5000_credits.csv' for cast and crew and 'tmdb_5000_movies.csv' for user ratings and overviews, were utilized.
 
 ### Natural Language Processing (NLP)
@@ -19,9 +19,12 @@ The dataset employed in this project is Kaggle's "TMDB 5000 Movie Dataset," comp
 3. CountVectorizer: Utilizing the CountVectorizer to convert the variable-length word sequences into a fixed-length feature vector for analysis.
 
 ## Result
+
+![streamlit](https://github.com/sjrpokemon/LHL-final-project/assets/128329266/75b20b87-7347-467f-8da0-bf643c15e9d1)
+
 The processed data, enriched with meaningful keywords from natural language processing techniques, was structured into a dataframe. For enhanced user interaction, the resulting dataframe was serialized into a pickle file and seamlessly integrated into a sophisticated Streamlit web application.
 
-This intuitive application empowers users to input a single preferred movie, leveraging advanced algorithms to deliver a curated list of recommendations, aligning with their unique tastes and preferences.
+Streamlit App Integration: The Streamlit app has been successfully developed and deployed, allowing users to input a single preferred movie and receive five personalized recommendations. This marks a significant achievement, showcasing the operationalization of the recommendation engine in an interactive and user-friendly manner.
 
 ## Future Development
 
